@@ -21,7 +21,7 @@ cargo:rerun-if-env-changed=HOST_CFLAGS
 HOST_CFLAGS = None
 cargo:rerun-if-env-changed=CFLAGS
 CFLAGS = None
-running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-Wall" "-Wextra" "-o" "/home/zeerak/Desktop/testSandcrust/target/debug/build/testSandcrust-ec4f421ab65bf493/out/library/library.o" "-c" "library/library.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-Wall" "-Wextra" "-o" "/home/zeerak/Desktop/rust-isolation/testSandcrust/target/debug/build/testSandcrust-ec4f421ab65bf493/out/library/library.o" "-c" "library/library.c"
 exit status: 0
 cargo:rerun-if-env-changed=AR_x86_64-unknown-linux-gnu
 AR_x86_64-unknown-linux-gnu = None
@@ -39,9 +39,9 @@ cargo:rerun-if-env-changed=HOST_ARFLAGS
 HOST_ARFLAGS = None
 cargo:rerun-if-env-changed=ARFLAGS
 ARFLAGS = None
-running: ZERO_AR_DATE="1" "ar" "cq" "/home/zeerak/Desktop/testSandcrust/target/debug/build/testSandcrust-ec4f421ab65bf493/out/libxzs.a" "/home/zeerak/Desktop/testSandcrust/target/debug/build/testSandcrust-ec4f421ab65bf493/out/library/library.o"
+running: ZERO_AR_DATE="1" "ar" "cq" "/home/zeerak/Desktop/rust-isolation/testSandcrust/target/debug/build/testSandcrust-ec4f421ab65bf493/out/libxzs.a" "/home/zeerak/Desktop/rust-isolation/testSandcrust/target/debug/build/testSandcrust-ec4f421ab65bf493/out/library/library.o"
 exit status: 0
-running: "ar" "s" "/home/zeerak/Desktop/testSandcrust/target/debug/build/testSandcrust-ec4f421ab65bf493/out/libxzs.a"
+running: "ar" "s" "/home/zeerak/Desktop/rust-isolation/testSandcrust/target/debug/build/testSandcrust-ec4f421ab65bf493/out/libxzs.a"
 exit status: 0
 cargo:rustc-link-lib=static=xzs
-cargo:rustc-link-search=native=/home/zeerak/Desktop/testSandcrust/target/debug/build/testSandcrust-ec4f421ab65bf493/out
+cargo:rustc-link-search=native=/home/zeerak/Desktop/rust-isolation/testSandcrust/target/debug/build/testSandcrust-ec4f421ab65bf493/out
